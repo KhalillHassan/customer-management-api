@@ -1,0 +1,17 @@
+C:\Users\khalil.hassan\customer-management-api\CustomerManagement.Persistence\bin\Debug\net10.0\CustomerManagement.Persistence.deps.json
+C:\Users\khalil.hassan\customer-management-api\CustomerManagement.Persistence\bin\Debug\net10.0\CustomerManagement.Persistence.runtimeconfig.json
+C:\Users\khalil.hassan\customer-management-api\CustomerManagement.Persistence\bin\Debug\net10.0\CustomerManagement.Persistence.dll
+C:\Users\khalil.hassan\customer-management-api\CustomerManagement.Persistence\bin\Debug\net10.0\CustomerManagement.Persistence.pdb
+C:\Users\khalil.hassan\customer-management-api\CustomerManagement.Persistence\bin\Debug\net10.0\CustomerManagement.Domain.dll
+C:\Users\khalil.hassan\customer-management-api\CustomerManagement.Persistence\bin\Debug\net10.0\CustomerManagement.Domain.pdb
+C:\Users\khalil.hassan\customer-management-api\CustomerManagement.Persistence\obj\Debug\net10.0\CustomerManagement.Persistence.csproj.AssemblyReference.cache
+C:\Users\khalil.hassan\customer-management-api\CustomerManagement.Persistence\obj\Debug\net10.0\CustomerManagement.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\khalil.hassan\customer-management-api\CustomerManagement.Persistence\obj\Debug\net10.0\CustomerManagement.Persistence.AssemblyInfoInputs.cache
+C:\Users\khalil.hassan\customer-management-api\CustomerManagement.Persistence\obj\Debug\net10.0\CustomerManagement.Persistence.AssemblyInfo.cs
+C:\Users\khalil.hassan\customer-management-api\CustomerManagement.Persistence\obj\Debug\net10.0\CustomerManagement.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\khalil.hassan\customer-management-api\CustomerManagement.Persistence\obj\Debug\net10.0\Customer.9AE19982.Up2Date
+C:\Users\khalil.hassan\customer-management-api\CustomerManagement.Persistence\obj\Debug\net10.0\CustomerManagement.Persistence.dll
+C:\Users\khalil.hassan\customer-management-api\CustomerManagement.Persistence\obj\Debug\net10.0\refint\CustomerManagement.Persistence.dll
+C:\Users\khalil.hassan\customer-management-api\CustomerManagement.Persistence\obj\Debug\net10.0\CustomerManagement.Persistence.pdb
+C:\Users\khalil.hassan\customer-management-api\CustomerManagement.Persistence\obj\Debug\net10.0\CustomerManagement.Persistence.genruntimeconfig.cache
+C:\Users\khalil.hassan\customer-management-api\CustomerManagement.Persistence\obj\Debug\net10.0\ref\CustomerManagement.Persistence.dll
