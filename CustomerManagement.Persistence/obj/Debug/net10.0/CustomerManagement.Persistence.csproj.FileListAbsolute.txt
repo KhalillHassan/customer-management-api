@@ -15,3 +15,4 @@ C:\Users\khalil.hassan\customer-management-api\CustomerManagement.Persistence\ob
 C:\Users\khalil.hassan\customer-management-api\CustomerManagement.Persistence\obj\Debug\net10.0\CustomerManagement.Persistence.pdb
 C:\Users\khalil.hassan\customer-management-api\CustomerManagement.Persistence\obj\Debug\net10.0\CustomerManagement.Persistence.genruntimeconfig.cache
 C:\Users\khalil.hassan\customer-management-api\CustomerManagement.Persistence\obj\Debug\net10.0\ref\CustomerManagement.Persistence.dll
+C:\Users\khalil.hassan\customer-management-api\CustomerManagement.Persistence\obj\Debug\net10.0\CustomerManagement.Persistence.sourcelink.json
