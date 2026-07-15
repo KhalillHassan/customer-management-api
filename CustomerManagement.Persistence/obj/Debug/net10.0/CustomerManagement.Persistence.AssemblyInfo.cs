@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CustomerManagement.Persistence")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e00ab4d4954a5522779f25a34f708a95249a555b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e005c730b8ff72b77c061a23587caeff335a924c")]
 [assembly: System.Reflection.AssemblyProductAttribute("CustomerManagement.Persistence")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CustomerManagement.Persistence")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
