@@ -1,6 +1,7 @@
 ﻿using Asp.Versioning;
 using CustomerManagement.Business.DTOs;
 using CustomerManagement.Business.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CustomerManagement.Api.Controllers;
@@ -8,6 +9,7 @@ namespace CustomerManagement.Api.Controllers;
 [ApiController]
 [ApiVersion("1.0")]
 [Route("api/v{version:apiVersion}/customers")]
+[Authorize]
 public class CustomersController : ControllerBase
 {
     private readonly ICustomerService _customerService;
@@ -38,6 +40,7 @@ public class CustomersController : ControllerBase
     }
 
     [HttpPost]
+    [Authorize(Policy = "AdminOnly")]
     public async Task<IActionResult> Create(CreateCustomerDto dto)
     {
         try
@@ -57,6 +60,7 @@ public class CustomersController : ControllerBase
     }
 
     [HttpPut("{id:int}")]
+    [Authorize(Policy = "AdminOnly")]
     public async Task<IActionResult> Update(int id, UpdateCustomerDto dto)
     {
         var updated = await _customerService.UpdateAsync(id, dto);
@@ -70,6 +74,7 @@ public class CustomersController : ControllerBase
     }
 
     [HttpDelete("{id:int}")]
+    [Authorize(Policy = "AdminOnly")]
     public async Task<IActionResult> Delete(int id)
     {
         var deleted = await _customerService.DeleteAsync(id);

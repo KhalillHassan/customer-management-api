@@ -15,3 +15,4 @@ C:\Users\khalil.hassan\customer-management-api\CustomerManagement.Business\obj\D
 C:\Users\khalil.hassan\customer-management-api\CustomerManagement.Business\obj\Debug\net10.0\refint\CustomerManagement.Business.dll
 C:\Users\khalil.hassan\customer-management-api\CustomerManagement.Business\obj\Debug\net10.0\CustomerManagement.Business.pdb
 C:\Users\khalil.hassan\customer-management-api\CustomerManagement.Business\obj\Debug\net10.0\ref\CustomerManagement.Business.dll
+C:\Users\khalil.hassan\customer-management-api\CustomerManagement.Business\obj\Debug\net10.0\CustomerManagement.Business.sourcelink.json

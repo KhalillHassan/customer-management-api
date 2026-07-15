@@ -142,3 +142,15 @@ C:\Users\khalil.hassan\customer-management-api\CustomerManagement.Api\obj\Debug\
 C:\Users\khalil.hassan\customer-management-api\CustomerManagement.Api\obj\Debug\net10.0\CustomerManagement.Api.pdb
 C:\Users\khalil.hassan\customer-management-api\CustomerManagement.Api\obj\Debug\net10.0\CustomerManagement.Api.genruntimeconfig.cache
 C:\Users\khalil.hassan\customer-management-api\CustomerManagement.Api\obj\Debug\net10.0\ref\CustomerManagement.Api.dll
+C:\Users\khalil.hassan\customer-management-api\CustomerManagement.Api\obj\Debug\net10.0\CustomerManagement.Api.sourcelink.json
+C:\Users\khalil.hassan\customer-management-api\CustomerManagement.Api\bin\Debug\net10.0\Microsoft.Bcl.Cryptography.dll
+C:\Users\khalil.hassan\customer-management-api\CustomerManagement.Api\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\khalil.hassan\customer-management-api\CustomerManagement.Api\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\khalil.hassan\customer-management-api\CustomerManagement.Api\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\khalil.hassan\customer-management-api\CustomerManagement.Api\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\khalil.hassan\customer-management-api\CustomerManagement.Api\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\khalil.hassan\customer-management-api\CustomerManagement.Api\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\khalil.hassan\customer-management-api\CustomerManagement.Api\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\khalil.hassan\customer-management-api\CustomerManagement.Api\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\khalil.hassan\customer-management-api\CustomerManagement.Api\bin\Debug\net10.0\FluentValidation.dll
+C:\Users\khalil.hassan\customer-management-api\CustomerManagement.Api\bin\Debug\net10.0\FluentValidation.DependencyInjectionExtensions.dll

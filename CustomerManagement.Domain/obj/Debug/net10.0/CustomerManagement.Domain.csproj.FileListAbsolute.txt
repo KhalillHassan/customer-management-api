@@ -9,3 +9,4 @@ C:\Users\khalil.hassan\customer-management-api\CustomerManagement.Domain\obj\Deb
 C:\Users\khalil.hassan\customer-management-api\CustomerManagement.Domain\obj\Debug\net10.0\refint\CustomerManagement.Domain.dll
 C:\Users\khalil.hassan\customer-management-api\CustomerManagement.Domain\obj\Debug\net10.0\CustomerManagement.Domain.pdb
 C:\Users\khalil.hassan\customer-management-api\CustomerManagement.Domain\obj\Debug\net10.0\ref\CustomerManagement.Domain.dll
+C:\Users\khalil.hassan\customer-management-api\CustomerManagement.Domain\obj\Debug\net10.0\CustomerManagement.Domain.sourcelink.json
