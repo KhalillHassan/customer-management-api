@@ -15,6 +15,7 @@ public class CustomerRepository : Repository<Customer>, ICustomerRepository
     public async Task<bool> EmailExistsAsync(string email)
     {
         return await _context.Customers
+                .AsNoTracking()
             .AnyAsync(customer => customer.Email == email && !customer.IsDeleted);
     }
 }

@@ -1,24 +1,25 @@
 using Asp.Versioning;
+using CustomerManagement.Api.Filters;
 using CustomerManagement.Business.Interfaces;
 using CustomerManagement.Business.Services;
+using CustomerManagement.Business.Settings;
+using CustomerManagement.Business.Validators;
+using CustomerManagement.Domain.Entities;
 using CustomerManagement.Persistence.Data;
 using CustomerManagement.Persistence.Interfaces;
 using CustomerManagement.Persistence.Repositories;
+using CustomerManagement.Persistence.Repositories.Interfaces;
+using FluentValidation;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.RateLimiting;
-using System.Threading.RateLimiting;
 using Microsoft.EntityFrameworkCore;
-using CustomerManagement.Business.Settings;
+using Microsoft.IdentityModel.Tokens;
 using Serilog;
 using Serilog.Events;
 using System.IO;
-using CustomerManagement.Domain.Entities;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.IdentityModel.Tokens;
 using System.Text;
-using CustomerManagement.Business.Validators;
-using FluentValidation;
-using CustomerManagement.Api.Filters;
+using System.Threading.RateLimiting;
 
 
 
@@ -83,6 +84,18 @@ builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<ICustomerService, CustomerService>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddScoped<IOrderService, OrderService>();
+
+builder.Services.AddScoped<
+    IOrderReportRepository,
+    OrderReportRepository>();
+
+builder.Services.AddScoped<
+    IOrderReportService,
+    OrderReportService>();
+builder.Services.AddScoped<
+    IProductRepository,
+    ProductRepository>();
 builder.Services.AddScoped<
     IUserService,
     UserService>();
@@ -90,6 +103,12 @@ builder.Services.AddScoped<
 builder.Services.AddScoped<
     IPasswordHasher<User>,
     PasswordHasher<User>>();
+builder.Services.AddScoped<
+    IProductService,
+    ProductService>();
+builder.Services.AddScoped<
+    IOrderRepository,
+    OrderRepository>();
 
 
 builder.Services.AddEndpointsApiExplorer();
