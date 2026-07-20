@@ -1,3 +1,4 @@
+
 CREATE OR REPLACE PROCEDURE public."GetCustomerOrderSummary"
 (
     IN p_customer_id integer,
