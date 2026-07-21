@@ -9,4 +9,4 @@ public class UpdateCustomerDto
     public string PhoneNumber { get; set; } = string.Empty;
 
     public bool IsActive { get; set; }
-}   
+}

@@ -57,4 +57,4 @@ public class OrderReportService : IOrderReportService
                 TotalAmount = result.TotalAmount
             });
     }
-}  
+}

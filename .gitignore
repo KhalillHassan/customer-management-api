@@ -1,16 +1,23 @@
-# Visual Studio
-.vs/
-*.user
-*.suo
-*.userosscache
-*.sln.docstates
-
-# Build outputs
+# Build output
 bin/
 obj/
-[Bb]in/
-[Oo]bj/
+
+# Visual Studio
+.vs/
 
 # Logs
+logs/
 *.log
-CustomerManagement.Api/Logs/
+
+# Test results
+TestResults/
+coverage/
+
+# Local secrets
+.env
+.env.*
+appsettings.Development.json
+
+# User-specific files
+*.user
+*.suo
