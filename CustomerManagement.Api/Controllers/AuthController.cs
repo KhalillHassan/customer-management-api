@@ -17,11 +17,30 @@ public class AuthController : ControllerBase
         _authService = authService;
     }
 
+    /// <summary>
+    /// Authenticates a user and returns a JWT access token.
+    /// </summary>
+    /// <param name="request">
+    /// The user's email address and password.
+    /// </param>
+    /// <returns>
+    /// A JWT access token and its expiration date.
+    /// </returns>
     [HttpPost("login")]
+    [ProducesResponseType(
+        typeof(LoginResponse),
+        StatusCodes.Status200OK)]
+    [ProducesResponseType(
+        typeof(ValidationProblemDetails),
+        StatusCodes.Status400BadRequest)]
+    [ProducesResponseType(
+        typeof(string),
+        StatusCodes.Status401Unauthorized)]
     public async Task<IActionResult> Login(
-    LoginRequest request)
+        LoginRequest request)
     {
-        var result = await _authService.LoginAsync(request);
+        var result =
+            await _authService.LoginAsync(request);
 
         if (result is null)
         {

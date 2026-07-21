@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 namespace CustomerManagement.Persistence.Repositories;
 
 public class OrderRepository
-    : Repository<Order>, IOrderRepository  
+    : Repository<Order>, IOrderRepository
 {
     public OrderRepository(AppDbContext context)
         : base(context)

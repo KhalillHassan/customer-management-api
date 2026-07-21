@@ -14,6 +14,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.RateLimiting;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using Serilog;
 using Serilog.Events;
@@ -112,7 +113,19 @@ builder.Services.AddScoped<
 
 
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(options =>
+{
+    var xmlFile =
+        $"{typeof(Program).Assembly.GetName().Name}.xml";
+
+    var xmlPath =
+        Path.Combine(AppContext.BaseDirectory, xmlFile);
+
+    options.IncludeXmlComments(xmlPath);
+
+    // Keep the existing JWT Swagger configuration here.
+});
+
 
 builder.Services
     .AddAuthentication(options =>
@@ -144,7 +157,7 @@ builder.Services
             new SymmetricSecurityKey(
                 Encoding.UTF8.GetBytes(
                     jwtSettings.SecretKey))
-    };  
+    };
      });
 
 builder.Services.AddAuthorization(options =>
